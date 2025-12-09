@@ -1,6 +1,5 @@
 # UPT — **U**niversal **P**ackage-management **T**ool - Extended
 
-[![Build status](https://github.com/xeddmc/upt/actions/workflows/ci.yml/badge.svg)](https://github.com/xeddmc/upt/actions)
 [![Crates.io](https://img.shields.io/crates/v/upt.svg)](https://crates.io/crates/upt)
 
 Upt provides a unified command interface to manage packages for any operating system and many language based (Python, PHP, etc).
@@ -180,3 +179,4 @@ Upt is made available under the terms of either the MIT License or the Apache Li
 See the LICENSE-APACHE and LICENSE-MIT files for license details.
 
 This is a fork of the original [sigoden/upt](https://github.com/sigoden/upt) project, now maintained at [xeddmc/upt](https://github.com/xeddmc/upt).
+
