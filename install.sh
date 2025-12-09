@@ -1,6 +1,6 @@
 #!/bin/sh
 
-repo=sigoden/upt
+repo=xeddmc/upt
 crate=upt
 url=https://github.com/$repo
 releases=$url/releases

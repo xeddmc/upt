@@ -1,11 +1,13 @@
-# UPT — **U**niversal **P**ackage-management **T**ool
+# UPT — **U**niversal **P**ackage-management **T**ool - Extended
 
-[![Build status](https://github.com/sigoden/upt/actions/workflows/ci.yml/badge.svg)](https://github.com/sigoden/upt/actions)
+[![Build status](https://github.com/xeddmc/upt/actions/workflows/ci.yml/badge.svg)](https://github.com/xeddmc/upt/actions)
 [![Crates.io](https://img.shields.io/crates/v/upt.svg)](https://crates.io/crates/upt)
 
-Upt provides a unified command interface to manage packages for any operating system. 
+Upt provides a unified command interface to manage packages for any operating system and many language based (Python, PHP, etc).
 
 Upt relies on the platform's package management tool to perform the task, it's more like a wrapper or adaptive alias.
+
+Use at your own risk. It's always better to learn than to cheat, but sometimes...it's just easier.
 
 ## Install
 
@@ -20,12 +22,12 @@ cargo install upt
 **Use Shell (Mac, Linux)**
 
 ```
-curl -fsSL https://raw.githubusercontent.com/sigoden/upt/main/install.sh | sh -s -- --to /usr/local/bin
+curl -fsSL https://raw.githubusercontent.com/xeddmc/upt/main/install.sh | sh -s -- --to /usr/local/bin
 ```
 
 **Binaries for macOS, Linux, Windows, BSD**
 
-Download from [GitHub Releases](https://github.com/sigoden/upt/releases), unzip and add `upt` to your $PATH.
+Download from [GitHub Releases](https://github.com/xeddmc/upt/releases), unzip and add `upt` to your $PATH.
 
 ## Features
 
@@ -171,7 +173,10 @@ UPT_TOOL=nix-env upt install $pkg         # equal to `nix-env -i $pkg`
 ## License
 
 Copyright (c) 2023-∞ upt-developers.
+Copyright (c) 2025 xeddmc (fork maintainer).
 
 Upt is made available under the terms of either the MIT License or the Apache License 2.0, at your option.
 
 See the LICENSE-APACHE and LICENSE-MIT files for license details.
+
+This is a fork of the original [sigoden/upt](https://github.com/sigoden/upt) project, now maintained at [xeddmc/upt](https://github.com/xeddmc/upt).
